@@ -1,0 +1,47 @@
+{
+  "name": "senta_metrics",
+  "version": "1.0.0",
+  "description": "productivity tracking for senta crm",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "css-loader": "^5.0.0",
+    "d3": "^6.2.0",
+    "date-fns": "^2.16.1",
+    "date-fns-tz": "^1.0.12",
+    "dotenv": "^8.2.0",
+    "hookrouter": "^1.2.3",
+    "mongoose": "^5.10.9",
+    "path": "^0.12.7",
+    "pusher": "^3.0.1",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-favicon": "0.0.18",
+    "react-redux": "^7.2.1",
+    "react-scripts": "^3.4.4",
+    "react-vis": "^1.11.7",
+    "react-vis-styles": "^0.3.7",
+    "redux": "^4.0.5",
+    "style-loader": "^2.0.0"
+  },
+  "engines": {
+    "node": "12.18.3"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start-client": "react-scripts start",
+    "build": "react-scripts build && npm install",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start": "cd client && npm start"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

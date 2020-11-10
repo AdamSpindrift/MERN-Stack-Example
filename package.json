@@ -1,0 +1,34 @@
+{
+  "name": "senta_metrics",
+  "version": "1.0.0",
+  "description": "productivity tracking for senta crm",
+  "main": "server.js",
+  "dependencies": {
+    "assert-plus": "^1.0.0",
+    "asynckit": "^0.4.0",
+    "axios": "^0.20.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "date-fns": "^2.16.1",
+    "date-fns-tz": "^1.0.12",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.8",
+    "nodemon": "^2.0.6",
+    "path": "^0.12.7",
+    "pusher": "^3.0.1",
+    "request": "^2.88.2",
+    "ws": "^7.3.1"
+  },
+  "engines": {
+    "node": "12.18.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "author": "Adam Power",
+  "license": "ISC"
+}
